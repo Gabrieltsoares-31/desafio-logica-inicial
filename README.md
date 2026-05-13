@@ -1,11 +1,13 @@
 // 1 Desafio Classificador de nível de Heroi
 
 // variaveis para o heroi
+
 let pontosDeXp = 0
 let nomeDoHeroi = "Tavares3103"
 let nivel = 0
 
 // introdução da jornada
+
 console.log("Digite o nome do seu heroi")
 console.log("Bem vindo " + nomeDoHeroi)
 console.log(nomeDoHeroi + " iniciou sua jornada")
@@ -24,6 +26,7 @@ for(let contador = 1; contador <=15; contador++){
 }
 
 // Estrutura de decisão
+
 if(pontosDeXp <= 1000){
     nivel = "Ferro"
 
@@ -50,4 +53,5 @@ if(pontosDeXp <= 1000){
 } }
 
 // Saída final
+
 console.log("O Herói de nome " + nomeDoHeroi + " está no nível de " + nivel)
